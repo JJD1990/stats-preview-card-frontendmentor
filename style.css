@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url("https://fonts.google.com/specimen/Lexend+Deca)");
+
+.attribution {
+    position: fixed;
+    color: #fff;
+    bottom: 0;
+    font-size: 11px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
+
+body {
+    font-family: "Inter";
+    background-color: hsl(233, 47%, 7%);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+ .card {
+     background-color: hsl(244, 38%, 16%);
+     color: #fff;
+     /* font-family: "Inter"; */
+     display: flex;
+     flex-direction: column;
+     font-size: 15px;
+     border-radius: 10px 0 0 10px;
+     top: 150px;
+     left: 250px;
+     margin: 100px 50px;
+     width: 500px;
+     height: 500px;
+ }
+
+ .card-title {
+    color:hsl(0, 0%, 100%);
+    font-size: 16px;
+    font-weight: bolder;
+    padding: 0px 20px;
+    margin-top: 80px;
+    margin-left: 80px;
+    width: 350px;
+ }
+
+.cart-text {
+    color: hsla(0, 0%, 100%, 0.75);
+    padding: 0 20px;
+    width: 350px;
+    margin-left: 80px;
+    margin-bottom: 40px;
+}
+
+ .stats{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-evenly;
+    width: 350px;
+    margin-top: 0px;
+    margin-left: 60px;
+ }
+
+ h2 {
+     font-weight: 900;
+ }
+
+.heading {
+    position: relative;
+    display: flex;
+    color: hsla(0, 0%, 100%, 0.6);
+    margin: 0;
+}
+
+ img {
+     position: relative;
+     border: none;
+     border-radius: 0 10px 10px 0;
+     height: 500px;
+     top: 100px;
+    right: 50px;
+     z-index: 100;
+ }
+
+  span {
+      color: hsl(277, 64%, 61%);
+  }
+
+  @media(max-width:375px) {
+    body{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+    }
+    .card {
+        display: flex;
+        /* justify-content: ; */
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 20px;
+        margin-bottom: 0;
+    }
+    img {
+        display: flex;
+        justify-content: center;
+        margin: 0;
+    }
+}
